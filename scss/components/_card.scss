@@ -117,6 +117,7 @@
 }
 
 .card__data-title {
+	max-width: 56%;
 	margin-right: func.em(12, 16);
 	font-size: func.em(16);
 	color: inherit;
@@ -200,5 +201,9 @@
 
 	.card__desc-title {
 		font-size: func.em(32, 18);
+	}
+
+	.card__data-title {
+		max-width: 46%;
 	}
 }
